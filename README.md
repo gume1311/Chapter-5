@@ -85,9 +85,9 @@ outputs the total hours and minutes (90 minutes = 1 hour 30 minutes).
 
 ```c
 #include <stdio.h>
-int tot_mins;  /* given number of minutes */
-int hrs;          /* number of hours (to be computed) */
-int mins;        /* number of minutes (to be computed) */
+int tot_mins;  
+int hrs;         
+int mins;        
 
 const int MINaHOUR = 60;      /* number of minutes in an hour */
 
