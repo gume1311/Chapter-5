@@ -5,12 +5,12 @@ Solve the the exercises from chapter 5 of "Practical C programming" and add an o
 
 ```c
 #include <stdio.h>
-float temp_f;     /* degrees fahrenheit */
-float temp_c;     /* degrees centigrade */
-char line_text[50];        /* a line of input */
+float temp_f;     
+float temp_c;    
+char line_text[50];       
 
 int main() {
-	printf("Input a temperature (in Centigrade): ");
+	printf("Escribe tu temperatura (in Centigrade): ");
 	fgets(line_text, sizeof(line_text), stdin);
 	sscanf(line_text, "%f", &temp_c);
 
@@ -21,3 +21,4 @@ int main() {
 }
 
 ```
+### Exercise 5-2: Write a program to calculate the volume of a sphere.
